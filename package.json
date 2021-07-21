@@ -7,11 +7,11 @@
     "-------------------------------- DEV ----": "----",
     "dev": "MODE=development node bin/dev",
     "-------------------------------- PROD ----": "----",
-    "build": "MODE=production node bin/build",
-    "start": "MODE=production node bin/start",
+    "build": "next build",
+    "start": "next start",
     "-------------------------------- STAGING ----": "----",
-    "build:staging": "MODE=staging node bin/build",
-    "start:staging": "MODE=staging node bin/start",
+    "build:staging": "MODE=staging next build",
+    "start:staging": "MODE=staging next start",
     "lint": "next lint"
   },
   "dependencies": {

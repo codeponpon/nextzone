@@ -1,6 +1,6 @@
 import '../styles/globals.css'
 import type { AppProps } from 'next/app'
-import { useRouter } from 'next/dist/client/router';
+import { useRouter } from 'next/router';
 import React, { useEffect } from 'react';
 
 const MyApp: React.FC<AppProps> = ({ Component, pageProps }) => {
